@@ -1,1 +1,1 @@
-This repo show all content of MAA module
+This repo show all content of MAS module
