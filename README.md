@@ -49,7 +49,7 @@ During this session, several enhancements were made to the codebase:
 - **API Limits**: High-volume runs may trigger 429 (Rate Limit) or 504 (Timeout) errors from the upstream provider.
 - **Neutrality**: For highly ambiguous reviews, the model may conclude a "Neutral" sentiment, which counts as an error in a binary (Positive/Negative) evaluation framework.
 ## RESULT :
-![Alternative Text](C:\Users\nourn\Desktop\eniad\S8\SMA\tp6\Doc\this.png)
+![Alternative Text](Doc/this.png)
 ## 🏃 How to Run
 ```bash
 python main.py
