@@ -1,5 +1,5 @@
 from client import LLMClient
-MY_INJECTED_KEY = "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"
+MY_INJECTED_KEY = "sk-or-Ur-API-Key"
 
 # Initialize once
 llm = LLMClient(MY_INJECTED_KEY)

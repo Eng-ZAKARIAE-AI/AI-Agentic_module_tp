@@ -15,7 +15,7 @@ class LLMClient:
         Initialize with a direct API key string or from environment.
         """
         if api_key is None:
-            api_key = "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"
+            api_key = "sk-or-Ur-API-Key"
         
         # Clean the key immediately to remove any accidental quotes or spaces
         self.api_key = api_key.replace('"', '').replace("'", "").strip()
@@ -72,7 +72,7 @@ def llm_predict(prompt: str) -> str:
 
 if __name__ == "__main__":
     # --- INJECT YOUR KEY HERE ---
-    MY_INJECTED_KEY = "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"
+    MY_INJECTED_KEY = "sk-or-Ur-API-Key"
     
     client = LLMClient(MY_INJECTED_KEY)
     
